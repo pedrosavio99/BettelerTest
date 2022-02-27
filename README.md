@@ -20,23 +20,23 @@ git clone linkHTTPS
 ```
 
 
-1. Baixar e instalar o Node em sua maquina.
+2. Baixar e instalar o Node em sua maquina.
 [Baixar NodeJs](https://nodejs.org/en/)
 
 
-2. Entre na pasta "client"em seu editor de texto e instale as dependencias do Node:
+3. Entre na pasta "client"em seu editor de texto e instale as dependencias do Node:
 ```javascript
 npm install
 ```
 
 
-2. Entre na pasta "server"em seu editor de texto e instale as dependencias do Node:
+4. Entre na pasta "server"em seu editor de texto e instale as dependencias do Node:
 ```javascript
 npm install
 ```
 
 
-1. Crie as variaveis de ambiente do servidor dentro da pasta server:
+5. Crie as variaveis de ambiente do servidor dentro da pasta server:
 Dentro da raiz da pasta server crie um arquivo chamado .env e cole essas variavéis de ambiente( ps. são as minha variaveis de teste então pode utilizar sem problemas)
 ```javascript
 DB = 'mongodb+srv://pedrosavio99:mce0yM0mRPMWqrTG@cluster0.aqnti.mongodb.net/teste-db?retryWrites=true&w=majority'
@@ -44,12 +44,12 @@ JWTPRIVATEKEY = 'beetellergroup'
 SALT = 10
 ```
 
-2. Entre no terminal dentro da pasta "server" e rode o comando de inicio do node para iniciar seu servidor de backend
+6. Entre no terminal dentro da pasta "server" e rode o comando de inicio do node para iniciar seu servidor de backend
 ```javascript
 npm start
 ```
 
-2. Entre no terminal dentro da pasta "client" e rode o comando de inicio do node para iniciar sua apliação front-end e consumir os dados do backend inicializado anteriormente
+7. Entre no terminal dentro da pasta "client" e rode o comando de inicio do node para iniciar sua apliação front-end e consumir os dados do backend inicializado anteriormente
 
 ```javascript
 npm start
