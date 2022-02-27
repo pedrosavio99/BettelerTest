@@ -13,21 +13,29 @@
 
 <br /><br />
 ## Manual de instalação
-<br/>
+
 1. Clone esse repositorio
 ```javascript
 git clone linkHTTPS
 ```
+
+
 1. Baixar e instalar o Node em sua maquina.
 [Baixar NodeJs](https://nodejs.org/en/)
+
+
 2. Entre na pasta "client"em seu editor de texto e instale as dependencias do Node:
 ```javascript
 npm install
 ```
+
+
 2. Entre na pasta "server"em seu editor de texto e instale as dependencias do Node:
 ```javascript
 npm install
 ```
+
+
 1. Crie as variaveis de ambiente do servidor dentro da pasta server:
 Dentro da raiz da pasta server crie um arquivo chamado .env e cole essas variavéis de ambiente( ps. são as minha variaveis de teste então pode utilizar sem problemas)
 ```javascript
@@ -46,15 +54,19 @@ npm start
 ```javascript
 npm start
 ```
-<br/>
+
+
+
 #Roadmap e desafios do projeto
-<br/>
+
+
 O projeto fo dividido em duas partes principais:
 1. O desenvolvimento de um backend capaz de retornar a autenticação de um sistema de login e as cotações de algumas moedas.
 1. Criação de um front-end responsivo para a aplicação.
-<br/>
+
+
 # Como desenvolvi o backend:
-<br/>
+
 
 Criei o diretorio "server" e dentro dele instalei as dependencias necessárias para o gerenciamento das rotas e armazenamento dos dados de login dos usúarios.
 ```javascript
